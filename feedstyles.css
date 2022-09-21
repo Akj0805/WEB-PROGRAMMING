@@ -1,0 +1,205 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#F67B50;
+  background-image:url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60');
+  /* background-image: linear-gradient(to right,gold,brown,black);  */
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 1000px
+}
+.nav{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+}
+nav{
+  flex: 1;
+  text-align: right;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display:inline-block;
+  margin-right: 10px:block;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+/* a::after{
+    content:"";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  } */
+}
+.navbar {
+      position: absolute;
+      top: 1850px;
+      left: 270px;
+        width: 1200px;
+        height: 1000px;
+        background-color: black;
+
+    }
+    .EXPERIENCEIT:hover {
+        background-color:grey;
+        transition: 0.5s;
+    }
+    .HOME:hover {
+        background-color:grey;
+        transition: 0.5s;
+    }
+    .STORIES:hover{
+      background-color: grey;
+      transition: 0.5s;
+    }
+    .H:hover{
+      background-color: grey;
+      transition: 0.5s;
+    }
+    .MEMEIT:hover{
+      background-color: grey;
+      transition: 0.5s;
+    }
+    .ABOUT:hover{
+      background-color: grey;
+      transition: 0.5s;
+    }
+
+
+p{
+  color:purple;
+  position: fixed;
+
+}
+.container{
+  max-height: 1200px;
+  margin: auto;
+}
+.topnav{
+  color: black;
+  margin-top:5px;
+  margin-left:10px;
+  padding-right: 425px;
+  border-radius: 0px;
+  border: none;
+  width:300px;
+  height: 25px;
+padding-left: 30px;
+text-align: center;
+}
+.search{padding-top:3px ;
+    padding:2px;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image:url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')
+}
+
+.main-scroll-div {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.cover {
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+
+.cover::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(90deg, black, transparent);
+}
+
+.cover::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(-90deg, black, transparent);
+}
+
+.scroll-images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child {
+    min-width: 600px;
+    height: 450px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid rgba(207, 201, 201, .3);
+    overflow: hidden;
+}
+
+.scroll-images::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.child-img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    color: rgb(67, 247, 76);
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: opx 20px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: yellow;
+}

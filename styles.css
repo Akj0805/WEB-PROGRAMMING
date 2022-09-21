@@ -1,0 +1,247 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#F67B50;
+  background-image:url('https://play-lh.googleusercontent.com/qyfXLNVM_cLm8NkYX7ZtNBPPnBmu1OJj0nFkaZvAg3HAFf8EzsGuwP_cNvZ6uneTEQI');
+  /* background-image: linear-gradient(to right,gold,brown,black);  */
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 2500px
+}
+.nav{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+}
+nav{
+  flex: 1;
+  text-align: right;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display:inline-block;
+  margin-right: 10px:block;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+/* a::after{
+    content:"";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  } */
+}
+.navbar {
+      position: fixed;
+      top: 1850px;
+      left: 270px;
+        width: 1200px;
+        height: 1000px;
+        background-color: black;
+
+    }
+    .EXPERIENCEIT:hover {
+        background-color:grey;
+        transition: 0.5s;
+    }
+    .HOME:hover {
+        background-color:grey;
+        transition: 0.5s;
+    }
+    .STORIES:hover{
+      background-color: grey;
+      transition: 0.5s;
+    }
+    .H:hover{
+      background-color: grey;
+      transition: 0.5s;
+    }
+    .MEMEIT:hover{
+      background-color: grey;
+      transition: 0.5s;
+    }
+    .ABOUT:hover{
+      background-color: grey;
+      transition: 0.5s;
+    }
+
+        body{
+            background-color: rgba(27,31,34,0.85);
+        }
+        h1{
+            font-size: 2.1rem;
+            line-height: 1.4;
+            letter-spacing:0.5 ;
+            text-align: center;
+            margin-top: 50px;
+        }
+p{
+  color:purple;
+  position: fixed;
+
+}
+.container{
+  max-height: 1200px;
+  margin: auto;
+}
+.topnav{
+  color: black;
+  margin-top:5px;
+  margin-left:10px;
+  padding-right: 425px;
+  border-radius: 0px;
+  border: none;
+  width:300px;
+  height: 25px;
+padding-left: 30px;
+text-align: center;
+}
+.search{padding-top:3px ;
+    padding:2px;
+
+}
+.HOME::after{color: green;
+
+}
+.p{
+  color:white;
+  text-align:left;
+  font-size: 50px;
+  font-variant: small-caps;
+  font-weight:bold;
+  font-size-adjust: auto;
+  font-family:sans-serif ;
+  letter-spacing: 2px;
+  font-style: oblique;
+  padding-left: 80px;
+
+
+}
+.quote{
+  font-family: cursive fantasy;
+  font-size: 45px;
+  font-weight: bold;
+  font-display: block;
+  text-align: right;
+  padding: 40px
+}
+.topic{
+  color: white;
+  font-size:70px;
+  text-align: center;
+  padding: 0px;
+  text-shadow:10;
+  font-family:;
+  letter-spacing: 30px;
+}
+.under{
+  color: white;
+  font-family:serif;
+  font-variant:small-caps;
+  font-size:40px;
+  text-align: center;
+}
+.pic1{padding: 25px;
+    border:5px;
+  border-width: thick;
+  border-style:inset;
+  border-color: white;
+  border-image-width: 60px;
+  /* height: 600px;
+  width: 1220px; */
+}
+.pic2{
+  padding: 25px;
+      border:5px;
+    border-width: thick;
+    border-style:inset;
+    border-color: white;
+    border-image-width: 60px;
+}
+.pic3{
+  padding: 25px;
+      border:5px;
+    border-width: thick;
+    border-style:inset;
+    border-color: white;
+    border-image-width: 60px;
+}
+   .pic4{padding: 25px;
+       border:5px;
+     border-width: thick;
+     border-style:inset;
+     border-color: white;
+     border-image-width: 60px;
+   }
+.Stories{
+  background-size: cover;
+  position: fixed;
+  top:   80px;
+  left: 1000px;
+  color: white;
+  font-size: 50px;
+  font-family:
+  letter-spacing:
+  text-align: center;
+  font-style: normal;
+  font-size: 80px;
+}
+.story{
+font-family: cursive;
+  text-align: center;
+  font-size: 30px;
+  right:400px;
+  left: 400px;
+  color: white;
+}
+.story2{
+  font-family: cursive;
+  text-align: center;
+  font-size: 30px;
+  right:400px;
+  left: 400px;
+  color: white;
+}
+
+.story3{
+  font-family: cursive;
+text-align: center;
+  font-size: 30px;
+  right:400px;
+  left: 400px;
+  color: white;
+}
+
+
+.image1{
+  display: inline-block;
+  margin-left: 8.5%;
+  margin-bottom: 4%;
+}
+
+#border1{
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0px 0px 0px 0px;
+}
+.section2 .content4{
+  top: 400px;
+  left: 400px;
+}
